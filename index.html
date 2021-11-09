@@ -6,29 +6,32 @@
 </head>
 <body>
     <link rel="stylesheet" href="home_screen.css">
-    <main aria-label="Content"></main>
+
+    <!--Creates a parallax image for the background-->
     <div class="parallax"></div>
 
-    <div class="grid-container">
+    <!--Flex container that is used to store the cards. (Videos with text)-->
+    <div class="flex-container">
+
+        <!--Each card inherits from card, which gives it the hover and shadow property-->
+        <!--From there, they each have their specific card type in their class-->
         <div class="card RL-card" onclick="window.open('https://tangerine2001.github.io/RLAgents/','RLAgents');">
 
+            <!--The card title class. Centers the text.-->
             <div class="card-title">
-
-                <h3 class="card-title RL-title">RLAgents</h3>
-
+                <!-- Each card title also has its own class-->
+                <h3 class="RL-title">RLAgents</h3>
             </div>
 
+            <!--Background video to be played.-->
             <video autoplay loop muted class="background-video">
                 <source src="./videos/CartPoleRecording.mov" type="video/mp4">
             </video>
-
         </div>
-
         <div class="card Pacman-card">
-            <div class="card-title Pacman-title">
-                <h3>Pacman Projects</h3>
+            <div class="card-title">
+                <h3 class="Pacman-title">Pacman Projects</h3>
             </div>
-
             <video autoplay loop muted class="background-video">
                 <source src="./videos/PacmanRecording.mov" type="video/mp4">
             </video>
