@@ -13,7 +13,8 @@
     background: #f64b4b;
     color: #c2b526;
 
-    min-width: 200px;
+    /*min-width: 200px;*/
+    width: auto;
     min-height: 200px;
     max-height: 200px;
 
@@ -28,19 +29,24 @@
 
 .card:hover{
     background: #f65e5e;
+    cursor: pointer;
     transition:transform 0.6s;
     transform: scale(1.08);
 }
 
 .card-title{
-    /*font-size: 1.25rem;*/
-    /*line-height: 1.4;*/
+    font-size: 1.25rem;
     z-index: 1;
-    /*mix-blend-mode: overlay;*/
     position: absolute;
     text-align: center;
-    /*width: 100%;*/
-    transform: translate(120%);
+}
+
+.RL-title{
+    transform: translate(120%, 200%);
+}
+
+.Pacman-title{
+    transform: translate(80%, 60%);
 }
 
 
@@ -53,11 +59,13 @@
 }
 
 .grid-container{
+    background-color: #f1f1f1;
     padding-top: 20px;
     display: grid;
     gap: 1rem;
     grid-template-columns: auto auto;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .background-video{
