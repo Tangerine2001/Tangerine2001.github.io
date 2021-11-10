@@ -1,76 +1,101 @@
 .parallax{
+    /*Currently an image. Might switch to using a video
+    but that might be too much happening on the screen.*/
     background-image: url('images/mainHome1.jpeg');
+
+    /*Fixed position does most of the parallax work.
+    Just overlay element on top of it.*/
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    /*Enlarges picture to what it needs to be.*/
     min-height: 500px;
 }
 
 .card{
-    box-sizing: border-box;
+    /*Attempt to make card fix the video.*/
+    box-sizing: content-box;
 
+    /*Background is for seeing if there's any sizing problem.*/
     background: #f64b4b;
-    color: #c2b526;
 
-    /*min-width: 200px;*/
-    width: auto;
-    min-height: 200px;
-    max-height: 200px;
+    /*Let's the card resize according to the size of the video.*/
+    display: inline-flex;
 
-    /*border-radius: 10px;*/
-    box-shadow:0 5px 15px rgba(0, 0, 0, 0.16);
-
-    /*position: relative;*/
-    /*box-sizing: border-box;*/
-    /*border-radius: 5px;*/
-    /*transition:box-shadow 0.1s ease-in-out*/
+    /*Adds a shadow to the box. Offset-X | Offset-Y | Blur-Radius | Color */
+    box-shadow:5px 5px 15px rgba(0, 0, 0, 0.16);
 }
 
 .card:hover{
-    background: #f65e5e;
+    /*Make sure the user knows it's clickable.*/
     cursor: pointer;
+
+    /*Smoothly transition into scaling effect.*/
     transition:transform 0.6s;
     transform: scale(1.08);
+
+    /*Disable the annoying scrollbars being added after the scale transform.*/
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .card-title{
-    font-size: 1.25rem;
+    /*Bring in front of video.*/
     z-index: 1;
+
+    /*Basic text formatting.*/
+    font-size: 1.25rem;
+    color: #c2b526;
+
+    /*Easier to position text manually like this.*/
     position: absolute;
     text-align: center;
 }
 
 .RL-title{
-    transform: translate(120%, 200%);
+    /*Centers RLAgents text. Manually tested numbers.*/
+    transform: translate(100%, 100%);
 }
 
 .Pacman-title{
-    transform: translate(80%, 60%);
+    /*Centers Pacman text. Manually tested numbers.*/
+    transform: translate(80%, 180%);
 }
 
 
 .RL-card{
-    grid-column: 1 / 2;
+    /*Index 1 in flex container order.*/
+    order: 1;
 }
 
 .Pacman-card{
-    grid-column: 2 / 3;
+    /*Index 2 in flex container order.*/
+    order: 2;
 }
 
-.grid-container{
+.flex-container{
+    /*Give a little graying effect. May alter later.*/
     background-color: #f1f1f1;
+
+    /*Row -> Left to Right*/
+    flex-direction: row;
+
+    /*Basic cell formatting*/
     padding-top: 20px;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: auto auto;
     justify-content: center;
     padding-bottom: 20px;
+    gap: 1rem;
+
+    /*What actually makes the class a flex container*/
+    display: flex;
 }
 
 .background-video{
+    /*Puts video behind text*/
     z-index: 0;
 
-    width: 100%;
-    height: 100%;
+    /*Sizes the video to a reasonable pixel height*/
+    max-height: 200px;
 }
