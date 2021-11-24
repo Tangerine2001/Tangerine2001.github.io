@@ -1,3 +1,7 @@
+body{
+    background-color: black;
+}
+
 .parallax{
     /*Currently an image. Might switch to using a video
     but that might be too much happening on the screen.*/
@@ -14,6 +18,10 @@
     min-height: 500px;
 }
 
+
+/*
+ * Item boxes including the embedded videos and text
+ */
 .card{
     /*Attempt to make card fix the video.*/
     box-sizing: content-box;
@@ -83,9 +91,9 @@
     flex-direction: row;
 
     /*Basic cell formatting*/
-    padding-top: 20px;
+    padding-top: 40px;
     justify-content: center;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     gap: 1rem;
 
     /*What actually makes the class a flex container*/
@@ -98,4 +106,61 @@
 
     /*Sizes the video to a reasonable pixel height*/
     max-height: 200px;
+}
+
+/*
+ * About section
+ */
+.aboutContainer{
+    /*Makes the class a flex container that puts items in a row*/
+    display: flex;
+    flex-direction: row;
+
+    /*Basic cell formatting*/
+    padding-top: 20px;
+    justify-content: center;
+    padding-bottom: 20px;
+    gap: 15rem;
+    height: fit-content;
+
+    /*Color subject to change*/
+
+    /*#915918*/
+    background-color: #FF9F1C;
+}
+
+.aboutImage{
+    /*Sets the image*/
+    background-image: url("images/Me.png");
+
+    /*Makes the image circular*/
+    border-radius: 50%;
+
+    /*Keeps a relatively closer dimension size close to the original*/
+    height: 300px;
+    width: 300px;
+
+    /*Center the image*/
+    margin-top: 8%;
+}
+
+.aboutText{
+    height: fit-content;
+    max-width: 700px;
+    background-color: rgba(255, 193, 94, 0.72);
+    text-align: center;
+
+    color: black;
+}
+
+.aboutText h2{
+    font-family: 'Lora', serif;
+}
+
+.aboutText p{
+    font-family: 'Chivo', sans-serif;
+    color: #2c2c2c;
+
+    /*Top, right, bottom, left margins*/
+    margin: 5px 20px 15px 20px;
 }
