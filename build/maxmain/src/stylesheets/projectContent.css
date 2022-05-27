@@ -1,0 +1,248 @@
+.project-content {
+    margin-left: 450px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-content * {
+    margin-right: 100px;
+}
+
+.project-content h1 {
+    font-size: 3.5rem;
+    color: #2d2b2b;
+    font-family: Reef, 'Lora', serif;
+}
+
+.project-content h2 {
+    font-size: 3rem;
+    color: #2d2b2b;
+    font-family: Galey, 'Lora', serif;
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+.project-content-date {
+    color: #9a9a9a;
+    margin-top: -2.5rem;
+}
+
+.project-content > p {
+    font-family: Galey, sans-serif;
+    font-size: 1.4rem;
+    /*color: #4d4d4d;*/
+    color: #2d2b2b;
+}
+
+.project-content-image {
+    height: 200px;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05), 0 0 0.0625rem rgba(0, 0, 0, 0.1);
+    margin-right: 0;
+
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.project-content-image:hover {
+    cursor: pointer;
+    height: 210px;
+}
+
+.project-content-image-1-25x {
+    height: 250px;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05), 0 0 0.0625rem rgba(0, 0, 0, 0.1);
+
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.project-content-image-1-25x:hover {
+    cursor: pointer;
+    height: 275px;
+}
+
+.project-content-image-1-5x {
+    height: 300px;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05), 0 0 0.0625rem rgba(0, 0, 0, 0.1);
+
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.project-content-image-1-5x:hover {
+    cursor: pointer;
+    height: 325px;
+}
+
+.project-content-li {
+    color: darkmagenta;
+}
+
+.project-content-li-orange {
+    color: chocolate;
+}
+
+h3.agent-header {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-family: Galey, sans-serif;
+    text-decoration: underline;
+}
+
+p.agent-version {
+    color: #2d2b2b;
+    font-family: Reef, sans-serif;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+ul.no-dot {
+    list-style: none;
+}
+
+ul.gap > li {
+    margin: 10px 0;
+}
+
+div.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+div.center-vertically {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.center-vertically > * {
+    width: 100%;
+}
+
+.no-margin {
+    margin: 0;
+    padding: 0;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+span.link {
+    margin-right: 0;
+    font-size: 1.4rem;
+    color: cornflowerblue;
+
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+span.link:hover {
+    cursor: pointer;
+    font-size: 1.42rem;
+    text-decoration: underline;
+}
+
+div.center-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+div.center-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 110%;
+    gap: 50px;
+}
+
+div.seeWidth {
+    background-color: #FF9F1C;
+}
+
+p.bigger {
+    font-size: 25px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+norm {
+    color: #2d2b2b;
+    margin-right: 0 !important;
+}
+
+.crimson-text {
+    color: coral;
+}
+
+.var {
+    margin-right: 0;
+}
+
+.env-var {
+    color: green;
+}
+
+.nn-var {
+    color: darkgoldenrod;
+}
+
+table {
+    border-radius: 0.2rem;
+    border-spacing: 0;
+    border-collapse: collapse;
+
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.05), 0 0 0.0625rem rgba(0, 0, 0, 0.1);
+}
+
+th {
+    background: #f0f1f2;
+}
+
+th, td {
+    /*Space things out properly */
+    padding: 0 0.25rem;
+
+    /*Get the borders looking just-right*/
+    border-radius: 0.2rem;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-left: 0.14rem solid #edebee !important;
+    border-right: 0.14rem solid #edebee !important;;
+    border-bottom: 0.14rem solid #edebee !important;;
+}
+
+th > p, td > p {
+    font-family: Galey, sans-serif;
+    margin-top: 10px !important;
+    margin-right: 2px !important;
+    margin-left: 2px !important;
+    padding-right: 0;
+    white-space: normal;
+    font-size: 20px;
+    height: 10px;
+    width: auto;
+    border-collapse: collapse;
+}
+
+td, th > p:first-child {
+    border-collapse: collapse;
+    border-left: none;
+}
+
+td, th > p:last-child {
+    border-collapse: collapse;
+    border-right: none;
+}

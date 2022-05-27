@@ -132,6 +132,7 @@ body{
 .aboutImage{
     /*Sets the image*/
     background-image: url("images/Me.png");
+    background-repeat: no-repeat;
 
     /*Makes the image circular*/
     border-radius: 50%;
@@ -141,7 +142,7 @@ body{
     width: 300px;
 
     /*Center the image*/
-    margin-top: 8%;
+    /*margin-top: 3%;*/
 }
 
 .aboutText{

@@ -1,0 +1,14 @@
+@font-face {
+    font-family: GaleyLight;
+    src: url('../fonts/GaleyExtraLight.woff2') format('truetype');
+}
+
+@font-face {
+    font-family: Galey;
+    src: url('../fonts/GaleySemiBold.woff2') format('truetype');
+}
+
+@font-face {
+    font-family: Reef;
+    src: url('../fonts/Reef Bold.woff2') format('truetype');
+}
