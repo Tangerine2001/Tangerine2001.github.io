@@ -1,0 +1,47 @@
+.navbar {
+    /*Basic formatting for the navbar*/
+    background-color: #545454;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+
+    /*Rules for navbar items*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    /*Adds depth*/
+    box-shadow: 0 2px 10px 2px #545454;
+}
+
+.navbar-item {
+    /*Rules for navbar items*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-title {
+    /*Rules for navbar items*/
+    display: flex;
+    flex-direction: row;
+
+    /*Rules for navbar items*/
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+
+    transition-duration: 0.3s;
+}
+
+.navbar-title:hover {
+    /*What makes it seem like a button*/
+    cursor: pointer;
+    background-color: grey;
+}

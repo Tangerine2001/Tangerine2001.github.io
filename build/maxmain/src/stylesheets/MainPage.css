@@ -1,0 +1,312 @@
+.App-logo {
+  /*Currently an image. Might switch to using a video
+    but that might be too much happening on the screen.*/
+  background-image: url('../images/mainHome3.jpeg');
+
+  /*Fixed position does most of the parallax work.
+    Just overlay element on top of it.*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*Enlarges picture to what it needs to be.*/
+  /*min-height: 500px;*/
+  /*max-height: 500px;*/
+  /*min-width: 100%;*/
+  /*max-width: 100%;*/
+  image-rendering: high-quality;
+}
+
+.App-logo h1{
+  /*Removes the white space above and below the background picture*/
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 50px;
+
+  /*Text formatting*/
+  text-align: center;
+  color: white;
+
+  /*Vertical alignment*/
+  line-height: 500px;
+  vertical-align: middle;
+
+  font-family: Galey, 'Lora', serif;
+}
+
+.flex-container {
+  /*Give a little graying effect. May alter later.*/
+  /*background-color: #f1f1f1;*/
+  background-color: #2c2c2c;
+
+  /*Row -> Left to Right*/
+  flex-direction: row;
+
+  /*Basic cell formatting*/
+  padding-top: 40px;
+  justify-content: center;
+  padding-bottom: 10px;
+  gap: 2rem;
+
+  /*What actually makes the class a flex container*/
+  display: flex;
+}
+
+.flex-container-2 {
+  /*Give a little graying effect. May alter later.*/
+  /*background-color: #f1f1f1;*/
+  background-color: #2c2c2c;
+
+  /*Row -> Left to Right*/
+  flex-direction: row;
+
+  /*Basic cell formatting*/
+  padding-top: 10px;
+  justify-content: center;
+  padding-bottom: 40px;
+  gap: 2rem;
+
+  /*What actually makes the class a flex container*/
+  display: flex;
+}
+
+/*
+ * Item boxes including the embedded videos and text
+ */
+.card{
+  /*Attempt to make card fix the video.*/
+  box-sizing: content-box;
+
+  /*Rounds the border*/
+  border-radius: 20px;
+
+  /*Background is for seeing if there's any sizing problem.*/
+  background: #f64b4b;
+
+  /*Let's the card resize according to the size of the video.*/
+  display: inline-flex;
+
+  /*Adds a shadow to the box. Offset-X | Offset-Y | Blur-Radius | Color */
+  box-shadow:5px 5px 15px rgba(0, 0, 0, 0.16);
+
+  /*Vertically centers all child elements*/
+  align-items: center;
+
+  /*Horizontally centers all child elements*/
+  justify-content: center;
+
+  /*Calls the transition function according the the timings below*/
+  transition: transform 0.4s ease-in-out;
+
+  /*Disable the annoying scrollbars being added after the scale transform.*/
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.card:hover{
+  /*Make sure the user knows it's clickable.*/
+  cursor: pointer;
+
+  /*Smoothly transition into scaling effect.*/
+  transform: scale(1.08);
+}
+
+.RL-card{
+  /*Index 1 in flex container order.*/
+  order: 1;
+}
+
+.Pacman-card{
+  /*Index 2 in flex container order.*/
+  order: 2;
+
+  /*Add border color for distinction against background*/
+  border: 2px solid blue;
+}
+
+.ADVA-card {
+  height: 425px;
+  width: 760px;
+}
+
+.ADVA-card-title {
+  padding-bottom: 270px;
+}
+
+.ADVA-card video{
+  max-height: 428px;
+}
+
+.card-title{
+  /*Bring in front of video.*/
+  z-index: 1;
+
+  /*Basic text formatting.*/
+  font-size: 1.75rem;
+  font-family: Reef, 'Lora', serif;
+  font-weight: 900;
+  color: #c2b526;
+
+  /*Easier to position text manually like this.*/
+  position: absolute;
+  padding-bottom: 75px;
+}
+
+.background-video{
+  /*Sizes the video to a reasonable pixel height*/
+  max-height: 200px;
+}
+
+/*@media (prefers-reduced-motion: no-preference) {*/
+/*  .App-logo {*/
+/*    animation: App-logo-spin infinite 20s linear;*/
+/*  }*/
+/*}*/
+
+/*.App-header {*/
+/*  background-color: #282c34;*/
+/*  min-height: 100vh;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  font-size: calc(10px + 2vmin);*/
+/*  color: white;*/
+/*}*/
+
+/*.App-link {*/
+/*  color: #61dafb;*/
+/*}*/
+
+/*@keyframes App-logo-spin {*/
+/*  from {*/
+/*    transform: rotate(0deg);*/
+/*  }*/
+/*  to {*/
+/*    transform: rotate(360deg);*/
+/*  }*/
+/*}*/
+
+/*
+ * About section
+ */
+.aboutContainer{
+  /*Makes the class a flex container that puts items in a row*/
+  display: flex;
+  flex-direction: row;
+
+  /*Basic cell formatting*/
+  padding-top: 20px;
+  justify-content: center;
+  padding-bottom: 20px;
+  gap: 15rem;
+  height: fit-content;
+
+  /*Color subject to change*/
+
+  /*#915918*/
+  /*#FF9F1C*/
+  background-color: #808080;
+}
+
+.aboutImage{
+  /*Sets the image*/
+  background-image: url("../images/Me.png");
+  background-repeat: no-repeat;
+
+  /*Makes the image circular*/
+  border-radius: 50%;
+
+  /*Keeps a relatively closer dimension size close to the original*/
+  height: 300px;
+  width: 300px;
+
+  /*Center the image*/
+  /*margin-top: 3%;*/
+}
+
+.aboutText{
+  height: fit-content;
+  max-width: 700px;
+  background-color: #545454;
+  text-align: center;
+
+  color: #cccccc;
+  border-radius: 10px;
+}
+
+.aboutText h2{
+  font-family: 'Lora', serif;
+}
+
+.aboutText p{
+  font-family: 'Chivo', sans-serif;
+  color: #cccccc;
+
+  /*Top, right, bottom, left margins*/
+  margin: 5px 20px 15px 20px;
+}
+
+/*
+ * Download section
+ */
+.download {
+  /*Creates vertical flexbox*/
+  display: flex;
+  flex-direction: column;
+
+  /*Centers the elements horizontally*/
+  justify-content: center;
+
+  /*Create vertical gap between elements*/
+  gap: 10px;
+
+  /*Set color to black*/
+  color: black;
+}
+
+.download:hover {
+  /*Color indication for hovering*/
+  color: #2c2c2c;
+}
+
+.downloadText * {
+  /*Puts the text and download button icon on the same line with spacing*/
+  display: inline-block;
+  margin: 0 0 0 5px;
+
+  /*Removes ugly underline*/
+  text-decoration: none;
+}
+
+/*
+ * Links section
+ */
+.links {
+  /*Set height and background color*/
+  height: 75px;
+  background-color: white;
+
+  /*Establishes it as flexbox*/
+  display: flex;
+  flex-direction: row;
+
+  /*Aligns content in the center horizontally and vertically*/
+  justify-content: center;
+  align-items: center;
+
+  /*Spacing between children elements*/
+  gap: 40px;
+}
+
+.links a {
+  /*Sets the color of the links to be black*/
+  color: black
+}
+
+.links a:hover{
+  /*Color change indication for hovering*/
+  color: grey;
+}
+
