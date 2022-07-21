@@ -14,7 +14,7 @@ function MainPageDownloads() {
                     </div>
                 </div>
             </Link>
-            <Link to="/downloads/Max Tang Resume Copy.pdf" target="_blank" download>
+            <Link to="/downloads/Max Tang Cover Letter.docx" target="_blank" download>
                 <div className="download">
                     <div className="download">
                         <FontAwesomeIcon icon={faFileLines} size="4x"/>
