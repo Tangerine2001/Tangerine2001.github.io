@@ -5,7 +5,7 @@ import {faCircleDown, faFileLines} from "@fortawesome/free-solid-svg-icons";
 function MainPageDownloads() {
     return (
         <div className="aboutContainer">
-            <Link to="/downloads/Max Tang Resume Copy.pdf" target="_blank" download>
+            <Link to="./downloads/Max_Tang_Resume.pdf" target="_blank" download>
                 <div className="download">
                     <FontAwesomeIcon icon={faFileLines} size="4x"/>
                     <div className="downloadText">
@@ -14,7 +14,7 @@ function MainPageDownloads() {
                     </div>
                 </div>
             </Link>
-            <Link to="/downloads/Max Tang Resume Copy.pdf" target="_blank" download>
+            <Link to="./downloads/Cover_Letter.pdf" target="_blank" download>
                 <div className="download">
                     <div className="download">
                         <FontAwesomeIcon icon={faFileLines} size="4x"/>
