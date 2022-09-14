@@ -1,0 +1,48 @@
+div.card {
+    /*Title then card*/
+    display: flex;
+    flex-direction: column;
+
+    /*Set text color*/
+    /*color: #382F2A;*/
+
+    /*Include transition time*/
+    transition: transform 0.4s ease-in-out;
+}
+
+div.card:hover {
+    /*Slightly increase the size of the card*/
+    transform: scale(1.08, 1.08);
+}
+
+div.card > p {
+    /*Make it match the border radius right side*/
+    padding: 6px 10px 12px 12px;
+    background-color: #38427C;
+    border-top-left-radius: 5px;
+
+    /*Adjust height and width*/
+    height: fit-content;
+    width: fit-content;
+    align-self: flex-end;
+
+    /*Touch the video part*/
+    margin-bottom: -10px;
+
+    /*Text formatting*/
+    text-align: right;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+}
+
+div.card > video {
+    /*Adjust the boder on the video*/
+    /*border: 3px #c2b526 solid;*/
+    border-radius: 10px;
+    border-top: 8px solid #1e2342;
+
+    /*Add color formatting for the card*/
+    padding: 8px 8px 8px 8px;
+    background-color: #38427C;
+}
