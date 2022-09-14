@@ -1,34 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.7603c523.css",
-    "main.js": "/static/js/main.f5261f2b.js",
-    "static/js/787.26f3d68a.chunk.js": "/static/js/787.26f3d68a.chunk.js",
+    "main.css": "/static/css/main.77ba1066.css",
+    "main.js": "/static/js/main.8caa14b4.js",
     "static/media/ADVA.mov": "/static/media/ADVA.b626451d6a7433dc5122.mov",
     "static/media/PacmanRecording.mov": "/static/media/PacmanRecording.535cb106dfc6c3e949fd.mov",
     "static/media/CartPoleRecording.mov": "/static/media/CartPoleRecording.a504ff08b550a84b9434.mov",
     "static/media/berkeley.png": "/static/media/berkeley.859861c5b37fb7ed7033.png",
     "static/media/mountaincar2.png": "/static/media/mountaincar2.4b02cd85018312272cdd.png",
     "static/media/NNnoHiddenLayers.png": "/static/media/NNnoHiddenLayers.754d21b1bd8fbc85804e.png",
-    "static/media/mainHome3.jpeg": "/static/media/mainHome3.16a6191af441e4735510.jpeg",
     "static/media/mountaincar1.png": "/static/media/mountaincar1.a0fffe937824c1cc8321.png",
-    "static/media/Me.png": "/static/media/Me.7d085006f20e74ceb535.png",
     "static/media/CartPoleResultsv1.png": "/static/media/CartPoleResultsv1.4808f57304b96a02c506.png",
     "static/media/CartPoleResultsv3.png": "/static/media/CartPoleResultsv3.d620dc62b7dbe46e935c.png",
     "static/media/cartpole2.png": "/static/media/cartpole2.2156af3622e217f88213.png",
     "static/media/GaleyExtraLight.woff2": "/static/media/GaleyExtraLight.2bc058482edbdb1c947c.woff2",
     "static/media/GaleySemiBold.woff2": "/static/media/GaleySemiBold.ee58449b446c03b32666.woff2",
     "static/media/MountainCarAgentv16.png": "/static/media/MountainCarAgentv16.ebe89943e017dbd71557.png",
+    "static/media/splash.png": "/static/media/splash.b0e4ad680608499ed427.png",
     "static/media/CartPoleResultsv2.png": "/static/media/CartPoleResultsv2.25622f07d31b81346dcf.png",
     "static/media/tensorflowImage.png": "/static/media/tensorflowImage.4494dc281da84bda0602.png",
     "static/media/Reef Bold.woff2": "/static/media/Reef Bold.843b98b7654df261d2f6.woff2",
     "static/media/cartpole1.png": "/static/media/cartpole1.ecf51c2f2edea3acb5d6.png",
+    "static/media/curlyBracket.png": "/static/media/curlyBracket.9ba6b140b7809c030693.png",
     "index.html": "/index.html",
-    "main.7603c523.css.map": "/static/css/main.7603c523.css.map",
-    "main.f5261f2b.js.map": "/static/js/main.f5261f2b.js.map",
-    "787.26f3d68a.chunk.js.map": "/static/js/787.26f3d68a.chunk.js.map"
+    "main.77ba1066.css.map": "/static/css/main.77ba1066.css.map",
+    "main.8caa14b4.js.map": "/static/js/main.8caa14b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.7603c523.css",
-    "static/js/main.f5261f2b.js"
+    "static/css/main.77ba1066.css",
+    "static/js/main.8caa14b4.js"
   ]
 }

@@ -1,0 +1,138 @@
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;margin:0}code{font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace}@font-face{font-family:GaleyLight;src:url(/static/media/GaleyExtraLight.2bc058482edbdb1c947c.woff2) format("truetype")}@font-face{font-family:Galey;src:url(/static/media/GaleySemiBold.ee58449b446c03b32666.woff2) format("truetype")}@font-face{font-family:Reef;src:url(/static/media/Reef%20Bold.843b98b7654df261d2f6.woff2) format("truetype")}
+/*  !*Currently an image. Might switch to using a video*/
+
+/*  !*Fixed position does most of the parallax work.*/
+
+/*  !*Enlarges picture to what it needs to be.*!*/
+/*  !*min-height: 500px;*!*/
+/*  !*max-height: 500px;*!*/
+/*  !*min-width: 100%;*!*/
+/*  !*max-width: 100%;*!*/
+/*  !*Removes the white space above and below the background picture*!*/
+
+/*  !*Text formatting*!*/
+
+/*  !*Vertical alignment*!*/div.light-grey{background-color:#d1d2da}img.splash{height:300px;image-rendering:high-quality}div.grey{background-color:#b4b6c0}div.projects{height:-webkit-fit-content;height:-moz-fit-content;height:fit-content;padding:0 0 30px 10%;z-index:-100}div.projects-content{display:flex;flex-direction:column;padding:10px 50px}p.projects-title{background-color:hsla(231,6%,45%,.5);border-radius:10px;color:#382f2a;font-size:50px;font-weight:700;height:-webkit-fit-content;height:-moz-fit-content;height:fit-content;padding:8px 10px;text-align:center;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}div.projects-main-content{display:flex;flex-direction:row}div.projects-cards{display:flex;flex-direction:column}div.flex-row{gap:20px}
+/*  !*Give a little graying effect. May alter later.*!*/
+/*  !*background-color: #f1f1f1;*!*/
+
+/*  !*Row -> Left to Right*!*/
+
+/*  !*Basic cell formatting*!*/
+
+/*  !*What actually makes the class a flex container*!*/
+/*  !*Give a little graying effect. May alter later.*!*/
+/*  !*background-color: #f1f1f1;*!*/
+
+/*  !*Row -> Left to Right*!*/
+
+/*  !*Basic cell formatting*!*/
+
+/*  !*What actually makes the class a flex container*!*/
+
+/*!**/
+/*  !*Attempt to make card fix the video.*!*/
+
+/*  !*Rounds the border*!*/
+
+/*  !*Background is for seeing if there's any sizing problem.*!*/
+
+/*  !*Let's the card resize according to the size of the video.*!*/
+
+/*  !*Adds a shadow to the box. Offset-X | Offset-Y | Blur-Radius | Color *!*/
+
+/*  !*Vertically centers all child elements*!*/
+
+/*  !*Horizontally centers all child elements*!*/
+
+/*  !*Calls the transition function according the the timings below*!*/
+
+/*  !*Disable the annoying scrollbars being added after the scale transform.*!*/
+/*  !*Make sure the user knows it's clickable.*!*/
+
+/*  !*Smoothly transition into scaling effect.*!*/
+/*  !*Index 1 in flex container order.*!*/
+/*  !*Index 2 in flex container order.*!*/
+
+/*  !*Add border color for distinction against background*!*/
+/*  !*Bring in front of video.*!*/
+
+/*  !*Basic text formatting.*!*/
+
+/*  !*Easier to position text manually like this.*!*/
+/*  !*Sizes the video to a reasonable pixel height*!*/
+
+/*!*@media (prefers-reduced-motion: no-preference) {*!*/
+/*!*  .App-logo {*!*/
+/*!*    animation: App-logo-spin infinite 20s linear;*!*/
+/*!*  }*!*/
+/*!*}*!*/
+
+/*!*.App-header {*!*/
+/*!*  background-color: #282c34;*!*/
+/*!*  min-height: 100vh;*!*/
+/*!*  display: flex;*!*/
+/*!*  flex-direction: column;*!*/
+/*!*  align-items: center;*!*/
+/*!*  justify-content: center;*!*/
+/*!*  font-size: calc(10px + 2vmin);*!*/
+/*!*  color: white;*!*/
+/*!*}*!*/
+
+/*!*.App-link {*!*/
+/*!*  color: #61dafb;*!*/
+/*!*}*!*/
+
+/*!*@keyframes App-logo-spin {*!*/
+/*!*  from {*!*/
+/*!*    transform: rotate(0deg);*!*/
+/*!*  }*!*/
+/*!*  to {*!*/
+/*!*    transform: rotate(360deg);*!*/
+/*!*  }*!*/
+/*!*}*!*/
+
+/*!**/
+/*  !*Makes the class a flex container that puts items in a row*!*/
+
+/*  !*Basic cell formatting*!*/
+
+/*  !*Color subject to change*!*/
+
+/*  !*#915918*!*/
+/*  !*#FF9F1C*!*/
+/*  !*Sets the image*!*/
+
+/*  !*Makes the image circular*!*/
+
+/*  !*Keeps a relatively closer dimension size close to the original*!*/
+
+/*  !*Center the image*!*/
+/*  !*margin-top: 3%;*!*/
+
+/*  !*Top, right, bottom, left margins*!*/
+
+/*!**/
+/*  !*Creates vertical flexbox*!*/
+
+/*  !*Centers the elements horizontally*!*/
+
+/*  !*Create vertical gap between elements*!*/
+
+/*  !*Set color to black*!*/
+/*  !*Color indication for hovering*!*/
+/*  !*Puts the text and download button icon on the same line with spacing*!*/
+
+/*  !*Removes ugly underline*!*/
+
+/*!**/
+/*  !*Set height and background color*!*/
+
+/*  !*Establishes it as flexbox*!*/
+
+/*  !*Aligns content in the center horizontally and vertically*!*/
+
+/*  !*Spacing between children elements*!*/
+/*  !*Sets the color of the links to be black*!*/
+/*  !*Color change indication for hovering*!*/.navbar,div.flex-row{display:flex;flex-direction:row}.navbar{align-items:center;background-color:#545454;box-shadow:0 2px 10px 2px #545454;height:60px;position:fixed;width:100%;z-index:999}.navbar-item{flex-direction:column;flex-wrap:wrap;padding:10px 0 10px 30px}.navbar-item,.navbar-text{align-items:center;display:flex;justify-content:center}.navbar-text{border-radius:8px;color:#ccc;flex-direction:row;padding:10px;text-decoration:none;transition-duration:.3s;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.navbar-text:hover{background-color:grey;color:#2c2c2c;cursor:pointer}div.card{display:flex;flex-direction:column;transition:-webkit-transform .4s ease-in-out;transition:transform .4s ease-in-out;transition:transform .4s ease-in-out,-webkit-transform .4s ease-in-out}div.card:hover{-webkit-transform:scale(1.08);transform:scale(1.08)}div.card>p{align-self:flex-end;background-color:#38427c;border-top-left-radius:5px;color:#fff;font-size:20px;font-weight:bolder;height:-webkit-fit-content;height:-moz-fit-content;height:fit-content;margin-bottom:-10px;padding:6px 10px 12px 12px;text-align:right;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}div.card>video{background-color:#38427c;border-radius:10px;border-top:8px solid #1e2342;padding:8px}.toc{background-color:#2c2c2c;box-shadow:5px 0 20px 1px #545454;height:100%;margin-top:60px;position:fixed;width:375px}.toc-title{font-size:40px;text-align:center}.toc-contents,.toc-title{color:grey;font-family:Reef,Times New Roman,serif}.toc-contents{font-size:20px}.toc-contents-item,.toc-contents-item-selected{list-style:none}.toc-contents-item *,.toc-contents-item-selected *{color:grey;list-style:none;margin-bottom:10px;text-decoration:none}.toc-contents-item-selected>button{color:#6495ed;font-size:22px;list-style:none}button{background:none;border:none;color:inherit;cursor:pointer;font:inherit;outline:inherit;padding:0;transition-duration:.5s}.project-content{display:flex;flex-direction:column;margin-left:450px;padding-top:60px}.project-content *{margin-right:100px}.project-content h1{color:#2d2b2b;font-family:Reef,Lora,serif;font-size:3.5rem}.project-content h2{color:#2d2b2b;font-family:Galey,Lora,serif;font-size:3rem;margin-bottom:0;text-decoration:underline}.project-content-date{color:#9a9a9a;margin-top:-2.5rem}.project-content>p{color:#2d2b2b;font-family:Galey,sans-serif;font-size:1.4rem}.project-content-image{box-shadow:0 1rem 1rem rgba(0,0,0,.05),0 0 .0625rem rgba(0,0,0,.1);height:200px;margin-right:0;transition-duration:.5s;transition-timing-function:ease-in-out}.project-content-image:hover{cursor:pointer;height:210px}.project-content-image-1-25x{box-shadow:0 1rem 1rem rgba(0,0,0,.05),0 0 .0625rem rgba(0,0,0,.1);height:250px;transition-duration:.5s;transition-timing-function:ease-in-out}.project-content-image-1-25x:hover{cursor:pointer;height:275px}.project-content-image-1-5x{box-shadow:0 1rem 1rem rgba(0,0,0,.05),0 0 .0625rem rgba(0,0,0,.1);height:300px;transition-duration:.5s;transition-timing-function:ease-in-out}.project-content-image-1-5x:hover{cursor:pointer;height:325px}.project-content-li{color:#8b008b}.project-content-li-orange{color:#d2691e}h3.agent-header{font-family:Galey,sans-serif;font-size:25px;text-align:center;text-decoration:underline;width:100%}p.agent-version{color:#2d2b2b;font-family:Reef,sans-serif;font-size:20px;margin-top:-10px}ul.no-dot{list-style:none}ul.gap>li{margin:10px 0}div.center{flex-direction:row;gap:20px}div.center,div.center-vertically{align-items:center;display:flex;justify-content:center}div.center-vertically{flex-direction:column}div.center-vertically>*{width:100%}.no-margin{margin:0;padding:0}.no-margin-bottom{margin-bottom:0}span.link{color:#6495ed;font-size:1.4rem;margin-right:0;transition-duration:.5s;transition-timing-function:ease-in-out}span.link:hover{cursor:pointer;font-size:1.42rem;text-decoration:underline}div.center-table{width:100%}div.center-image,div.center-table{align-items:center;display:flex;flex-direction:row;justify-content:center}div.center-image{gap:50px;width:110%}div.seeWidth{background-color:#ff9f1c}p.bigger{font-size:25px}html{scroll-behavior:smooth}norm{color:#2d2b2b;margin-right:0!important}.crimson-text{color:coral}.var{margin-right:0}.env-var{color:green}.nn-var{color:#b8860b}table{border-collapse:collapse;border-radius:.2rem;border-spacing:0;box-shadow:0 .2rem .5rem rgba(0,0,0,.05),0 0 .0625rem rgba(0,0,0,.1)}th{background:#f0f1f2}td,th{border-bottom:.14rem solid #edebee!important;border-left:.14rem solid #edebee!important;border-radius:.2rem;border-right:.14rem solid #edebee!important;border-spacing:0;padding:0 .25rem}td,td>p,th,th>p{border-collapse:collapse}td>p,th>p{font-family:Galey,sans-serif;font-size:20px;height:10px;margin-left:2px!important;margin-right:2px!important;margin-top:10px!important;padding-right:0;white-space:normal;width:auto}td,th>p:first-child{border-collapse:collapse;border-left:none}td,th>p:last-child{border-collapse:collapse;border-right:none}
+/*# sourceMappingURL=main.77ba1066.css.map*/
