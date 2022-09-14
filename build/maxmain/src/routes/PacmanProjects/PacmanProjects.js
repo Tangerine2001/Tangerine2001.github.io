@@ -1,6 +1,6 @@
 import { useState } from "react";
-import ProjectNavbar from "../../misc/ProjectComponents/ProjectNavbar";
-import TableOfContentsBar from "../../misc/ProjectComponents/TableOfContentsBar";
+import ProjectNavbar from "../../Components/ProjectNavbar";
+import TableOfContentsBar from "../../Components/TableOfContentsBar";
 import berkeley from "../../images/PacmanProjects/berkeley.png"
 import Project1 from "./Subpages/Project1";
 

@@ -1,0 +1,57 @@
+.navbar {
+    /*Basic formatting for the navbar*/
+    background-color: #545454;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+
+    /*Rules for navbar items*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    /*Adds depth*/
+    box-shadow: 0 2px 10px 2px #545454;
+
+    /*Keep navbar on top of everything*/
+    z-index: 999;
+}
+
+.navbar-item {
+    /*Rules for navbar items*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    /*Adjust spacing between navbar items and the navbar itself*/
+    padding: 10px 0 10px 30px;
+}
+
+.navbar-text {
+    /*Rules for navbar items*/
+    display: flex;
+    flex-direction: row;
+
+    /*Rules for navbar items*/
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #cccccc;
+
+    /*Add detailed spacing for items*/
+    width: fit-content;
+    padding: 10px 10px 10px 10px;
+
+    /*Set the time to transition*/
+    transition-duration: 0.3s;
+}
+
+.navbar-text:hover {
+    /*What makes it seem like a button*/
+    cursor: pointer;
+    background-color: grey;
+    color: #2c2c2c;
+}

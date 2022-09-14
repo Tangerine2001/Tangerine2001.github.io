@@ -1,5 +1,5 @@
-import ProjectNavbar from "../../misc/ProjectComponents/ProjectNavbar";
-import TableOfContentsBar from "../../misc/ProjectComponents/TableOfContentsBar";
+import ProjectNavbar from "../../Components/ProjectNavbar";
+import TableOfContentsBar from "../../Components/TableOfContentsBar";
 import tensorFlowImage from "../../images/tensorflowImage.png"
 import openAI from "../../images/openAIGym.png"
 import '../../stylesheets/projectContent.css'
