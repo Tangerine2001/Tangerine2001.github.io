@@ -15,7 +15,7 @@ function MainPageProjects() {
 
     const pacmanProject = {
         name: "Pacman Projects",
-        link: "/PacmanProjects",
+        link: "https://github.com/Tangerine2001/PacmanProjects",
         file: pacman,
         width: 420,
         height: 200
@@ -23,7 +23,7 @@ function MainPageProjects() {
 
     const moreProject = {
         name: "etc...",
-        link: "/RLAgents",
+        link: "https://github.com/Tangerine2001",
         file: adva,
         width: 760,
         height: 400
