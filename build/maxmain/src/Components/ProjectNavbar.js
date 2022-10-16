@@ -16,11 +16,11 @@ function ProjectNavbar() {
                     <li className='navbar-text'>RLAgents</li>
                 </Link>
             </ul>
-            <ul className="navbar-item">
-                <Link to='/PacmanProjects' style={{textDecoration: 'none'}}>
-                    <li className='navbar-text'>PacmanProjects</li>
-                </Link>
-            </ul>
+            {/*<ul className="navbar-item">*/}
+            {/*    <Link to='/PacmanProjects' style={{textDecoration: 'none'}}>*/}
+            {/*        <li className='navbar-text'>PacmanProjects</li>*/}
+            {/*    </Link>*/}
+            {/*</ul>*/}
         </div>
     )
 }
